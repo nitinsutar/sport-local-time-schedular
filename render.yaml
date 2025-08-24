@@ -13,7 +13,9 @@ services:
       - key: NEXT_TELEMETRY_DISABLED
         value: "1"
 
-cronJobs:
-  - name: ingest-fixtures-hourly
+  - type: cron
+    name: ingest-fixtures-hourly
+    env: node
+    plan: free
     schedule: "0 * * * *" # hourly
     command: "npm run ingest"
