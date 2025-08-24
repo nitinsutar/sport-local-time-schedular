@@ -1,0 +1,14 @@
+{
+  "fixtures": [
+    {
+      "id": "ufc-299",
+      "league": "ufc",
+      "season": "2025",
+      "home": "Fighter A",
+      "away": "Fighter B",
+      "start_time_utc": "2025-08-24T23:00:00Z",
+      "venue": "T-Mobile Arena",
+      "status": "scheduled"
+    }
+  ]
+}

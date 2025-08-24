@@ -1,0 +1,24 @@
+{
+  "fixtures": [
+    {
+      "id": "epl-0-0",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team A",
+      "away": "Team F",
+      "start_time_utc": "2025-08-24T16:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "epl-0-1",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team A",
+      "away": "Team G",
+      "start_time_utc": "2025-08-24T18:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    }
+  ]
+}

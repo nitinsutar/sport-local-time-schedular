@@ -1,0 +1,14 @@
+{
+  "fixtures": [
+    {
+      "id": "f1-01",
+      "league": "f1",
+      "season": "2025",
+      "home": "Grand Prix",
+      "away": "Race Day",
+      "start_time_utc": "2025-08-24T13:00:00Z",
+      "venue": "Monza",
+      "status": "scheduled"
+    }
+  ]
+}

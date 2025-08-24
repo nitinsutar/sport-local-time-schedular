@@ -1,0 +1,64 @@
+{
+  "fixtures": [
+    {
+      "id": "epl-0-0",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team A",
+      "away": "Team F",
+      "start_time_utc": "2025-08-24T16:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "epl-0-1",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team A",
+      "away": "Team G",
+      "start_time_utc": "2025-08-24T18:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "epl-1-0",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team B",
+      "away": "Team F",
+      "start_time_utc": "2025-08-25T16:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "epl-1-1",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team B",
+      "away": "Team G",
+      "start_time_utc": "2025-08-25T18:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "epl-2-0",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team C",
+      "away": "Team F",
+      "start_time_utc": "2025-08-26T16:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    },
+    {
+      "id": "epl-2-1",
+      "league": "epl",
+      "season": "2025-26",
+      "home": "Team C",
+      "away": "Team G",
+      "start_time_utc": "2025-08-26T18:00:00Z",
+      "venue": "Sample Stadium",
+      "status": "scheduled"
+    }
+  ]
+}

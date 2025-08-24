@@ -1,0 +1,34 @@
+{
+  "fixtures": [
+    {
+      "id": "nba-0-0",
+      "league": "nba",
+      "season": "2025-26",
+      "home": "Lakers",
+      "away": "Warriors",
+      "start_time_utc": "2025-08-24T02:30:00Z",
+      "venue": "Crypto.com Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "nba-1-0",
+      "league": "nba",
+      "season": "2025-26",
+      "home": "Lakers",
+      "away": "Warriors",
+      "start_time_utc": "2025-08-25T02:30:00Z",
+      "venue": "Crypto.com Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "nba-2-0",
+      "league": "nba",
+      "season": "2025-26",
+      "home": "Lakers",
+      "away": "Warriors",
+      "start_time_utc": "2025-08-26T02:30:00Z",
+      "venue": "Crypto.com Arena",
+      "status": "scheduled"
+    }
+  ]
+}
