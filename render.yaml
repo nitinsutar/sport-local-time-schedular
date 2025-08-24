@@ -1,0 +1,19 @@
+
+services:
+  - type: web
+    name: sportstime-web
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"
+
+cronJobs:
+  - name: ingest-fixtures-hourly
+    schedule: "0 * * * *" # hourly
+    command: "npm run ingest"

@@ -35,3 +35,13 @@ There are two "Ad space" blocks in `app/page.tsx`. Replace with your AdSense cod
 ## Where to implement fetching
 - `scripts/ingest.ts` — put your actual data collection and writing logic here.
 - You can also ship a static-only version by committing generated JSON under `/data`.
+
+
+---
+
+## Deploy on Render
+1. Push this repo to GitHub.
+2. Go to Render → New + → Blueprint → pick this repo.
+3. Render will use `render.yaml` to set up the web service and cron job.
+4. Web service runs Next.js app (`npm run start`).
+5. Cron job runs `npm run ingest` hourly.
