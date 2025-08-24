@@ -2,11 +2,11 @@
 services:
   - type: web
     name: sportstime-web
-    env: node
+    runtime: node
     plan: free
     buildCommand: npm install && npm run build
     startCommand: npm run start
-    autoDeploy: true
+    autoDeployTrigger: commit
     envVars:
       - key: NODE_ENV
         value: production
@@ -15,7 +15,8 @@ services:
 
   - type: cron
     name: ingest-fixtures-hourly
-    env: node
-    plan: free
+    runtime: node
+    plan: starter
     schedule: "0 * * * *" # hourly
-    command: "npm run ingest"
+    buildCommand: npm install
+    startCommand: npm run ingest
